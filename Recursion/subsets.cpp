@@ -35,7 +35,7 @@ vector<vector<int>> subsets(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums = { 1, 2, 3 };  // Example input
+    vector<int> nums = { 1, 2, 3, 4, 5 };  // Example input
     vector<vector<int>> result = subsets(nums);
 
     // Printing the subsets
